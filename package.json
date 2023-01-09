@@ -1,0 +1,26 @@
+{
+  "name": "modulo11_teste_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patricia-De-Jonghe/modulo11_teste_cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patricia-De-Jonghe/modulo11_teste_cypress/issues"
+  },
+  "homepage": "https://github.com/Patricia-De-Jonghe/modulo11_teste_cypress#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3"
+  }
+}
