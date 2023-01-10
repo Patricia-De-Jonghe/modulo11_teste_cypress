@@ -21,7 +21,8 @@ describe('Funcionalidade configuração de produto', () => {
   })
 
   it('Não deve permitir adicionar ao carrinho sem configurar variações do produto', () => {  
-    cy.get('.single_add_to_cart_button').should('be.disabled')
+    cy.get('.single_add_to_cart_button').click()
+    cy.get('.dropdown-toggle > .mini-cart-items').should('contain', '0')
   })
 
   it('Deve limpar configurações de variações', () => {  
